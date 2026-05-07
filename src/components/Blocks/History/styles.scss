@@ -1,0 +1,11 @@
+.history {
+  &__heading {
+    margin-bottom: 60px;
+  }
+
+  &__cards {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
+    gap: 2.5%;
+  }
+}

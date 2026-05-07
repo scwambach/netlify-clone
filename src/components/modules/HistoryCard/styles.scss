@@ -1,0 +1,43 @@
+.history-card {
+  border: 2px solid var(--lighterGray);
+  border-radius: 12px;
+  padding: 40px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+  align-items: flex-start;
+  justify-content: space-between;
+
+  p {
+    margin: 0;
+  }
+
+  &__content {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  &__info {
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  &__title {
+    font-size: 24px;
+  }
+
+  &__date {
+    font-weight: 600;
+  }
+
+  &__company {
+    font-family: var(--font-martian-mono);
+    text-transform: uppercase;
+    color: var(--blue);
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+  }
+}
