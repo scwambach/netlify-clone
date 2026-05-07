@@ -1,7 +1,6 @@
 import { HeadingProps } from "@/utils/types";
 import "./styles.scss";
 import Image, { ImageProps } from "next/image";
-import { JSX } from "react";
 import { Heading } from "@/components/modules/Heading";
 
 export interface CalloutProps {
