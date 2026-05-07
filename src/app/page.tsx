@@ -1,4 +1,5 @@
 import { Callout } from "@/components/Blocks/Callout";
+import { CallToAction } from "@/components/Blocks/CallToAction";
 import { HeroBanner } from "@/components/Blocks/HeroBanner";
 import { History } from "@/components/Blocks/History";
 import { MediaCards } from "@/components/Blocks/MediaCards";
@@ -12,6 +13,7 @@ export default function Home() {
       <MediaCards {...pageData.mediaCards2} />
       <History {...pageData.history} />
       <MediaCards {...pageData.mediaCards3} />
+      <CallToAction {...pageData.cta} />
     </main>
   );
 }

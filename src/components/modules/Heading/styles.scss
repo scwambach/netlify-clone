@@ -20,11 +20,18 @@
   &__title {
     font-size: 64px;
     margin: 0;
+    text-wrap: pretty;
   }
 
   &__message {
     font-size: 18px;
     margin: 0;
     font-weight: 400;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+    margin-top: 24px;
   }
 }

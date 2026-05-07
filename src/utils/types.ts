@@ -13,4 +13,5 @@ export interface HeadingProps {
   isCentered?: boolean;
   headingLevel?: HeadingLevel;
   className?: string;
+  buttons?: LinkProps[];
 }
