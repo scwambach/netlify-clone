@@ -6,13 +6,7 @@ import { ButtonLink } from "@/components/modules/ButtonLink";
 export interface HeroBannerProps {
   title: string;
   message: string;
-  image: {
-    src: string;
-    alt: string;
-    width: number;
-    height: number;
-    blurDataURL: string;
-  };
+  image: ImageProps;
   buttons: LinkProps[];
 }
 
