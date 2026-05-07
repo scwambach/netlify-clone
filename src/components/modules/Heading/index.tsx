@@ -7,11 +7,15 @@ export const Heading = ({
   title,
   message,
   headingLevel = 2,
+  isCentered = false,
+  className = "",
 }: HeadingProps) => {
   const HeadingTag = `h${headingLevel}` as keyof JSX.IntrinsicElements;
 
   return (
-    <div className="heading">
+    <div
+      className={`heading ${isCentered ? "heading--centered" : ""}${className ? ` ${className}` : ""}`}
+    >
       {eyebrow && <p className="heading__eyebrow">{eyebrow}</p>}
       <HeadingTag className="heading__title">{title}</HeadingTag>
       {message && <p className="heading__message">{message}</p>}

@@ -9,6 +9,7 @@ import balloon from "@/images/noEgo.png";
 import guitar from "@/images/guitar.png";
 import house from "@/images/house.png";
 import cat from "@/images/cat.png";
+import { HeadingLevel } from "@/utils/types";
 
 export const pageData = {
   header: {
@@ -22,6 +23,7 @@ export const pageData = {
   },
   heroBanner: {
     title: "I'm Scott and I love Netlify.",
+    headingLevel: 1,
     message:
       "I'm a software engineer with more than 10 years of experience who exclusively uses Netlify to host my sites.",
     image: {
@@ -47,9 +49,10 @@ export const pageData = {
   mediaCards: {
     heading: {
       eyebrow: "Time to gush",
+      headingLevel: 2 as HeadingLevel,
       title: "Why I love Netlify.",
       message:
-        "It’s such an easy tool to use. It allows for a seemless transfer with my clients.",
+        "It's such an easy tool to use. It allows for a seemless transfer with my clients.",
     },
     items: [
       {
@@ -93,8 +96,9 @@ export const pageData = {
   callout: {
     heading: {
       eyebrow: "Netlify values",
+      headingLevel: 2 as HeadingLevel,
       title: "Netlify values that resonate with me.",
-      message: "I’m a fan of Netlify’s company values",
+      message: "I'm a fan of Netlify's company values",
     },
     items: [
       "Inclusivity and diversity is important",
@@ -102,11 +106,18 @@ export const pageData = {
       "Teamwork and collaboration is key",
       "Remote-first and people-focused",
     ],
-    image: computer,
+    image: {
+      src: computer.src,
+      width: computer.width,
+      height: computer.height,
+      alt: "Computer Image",
+      blurDataURL: computer.blurDataURL,
+    },
   },
   mediaCards2: {
     heading: {
       eyebrow: "What I can do",
+      headingLevel: 2 as HeadingLevel,
       title: "Here's what I can offer.",
       message: "I have experience working",
     },
@@ -152,6 +163,7 @@ export const pageData = {
   history: {
     heading: {
       title: "Work experience.",
+      headingLevel: 2 as HeadingLevel,
     },
     cards: [
       {
@@ -207,6 +219,7 @@ export const pageData = {
   mediaCards3: {
     heading: {
       title: "In my free time...",
+      headingLevel: 3 as HeadingLevel,
       isCentered: true,
     },
     items: [
@@ -219,7 +232,7 @@ export const pageData = {
           alt: "Guitar Image",
           blurDataURL: guitar.blurDataURL,
         },
-        message: "I’m the guitarist in a band called The Chugs and I ",
+        message: "I'm the guitarist in a band called The Chugs and I ",
       },
       {
         title: "I work on my old house",
@@ -249,6 +262,7 @@ export const pageData = {
   },
   cta: {
     title: "I would love to join the Netlify team!",
+    headingLevel: 3 as HeadingLevel,
     buttons: [
       {
         href: "mailto:scott@example.com?subject=Hello&body=I%20would%20love%20to%20work%20with%20you!",

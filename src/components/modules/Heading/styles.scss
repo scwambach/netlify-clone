@@ -3,6 +3,11 @@
   flex-direction: column;
   gap: 16px;
 
+  &--centered {
+    align-items: center;
+    text-align: center;
+  }
+
   &__eyebrow {
     font-family: var(--font-martian-mono);
     text-transform: uppercase;

@@ -1,0 +1,45 @@
+.callout {
+  &__box {
+    color: var(--white);
+    border-radius: 12px;
+    padding: 45px;
+    background-color: var(--boxBlack);
+    display: flex;
+    gap: 60px;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .heading {
+    &__eyebrow {
+      color: var(--lightBlue);
+    }
+    &__title {
+      font-size: 45px;
+    }
+  }
+
+  &__content {
+    width: 50%;
+  }
+
+  &__image {
+    width: 50%;
+  }
+
+  &__list {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    gap: 8px;
+    flex-direction: column;
+  }
+
+  &__list-item {
+    background-color: var(--darkBlue);
+    border: 2px solid var(--gray);
+    font-size: 18px;
+    border-radius: 7px;
+    padding: 15px 20px;
+  }
+}
