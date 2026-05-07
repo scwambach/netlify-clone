@@ -50,45 +50,45 @@ export const pageData = {
       title: "Why I love Netlify.",
       message:
         "It’s such an easy tool to use. It allows for a seemless transfer with my clients.",
-      items: [
-        {
-          title: "Clean design",
-          image: {
-            src: stars.src,
-            width: stars.width,
-            height: stars.height,
-            alt: "Stars Image",
-            blurDataURL: stars.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-        {
-          title: "Project management",
-          image: {
-            src: management.src,
-            width: management.width,
-            height: management.height,
-            alt: "Management Image",
-            blurDataURL: management.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-        {
-          title: "Security and speed",
-          image: {
-            src: speed.src,
-            width: speed.width,
-            height: speed.height,
-            alt: "Speed Image",
-            blurDataURL: speed.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-      ],
     },
+    items: [
+      {
+        title: "Clean design",
+        image: {
+          src: stars.src,
+          width: stars.width,
+          height: stars.height,
+          alt: "Stars Image",
+          blurDataURL: stars.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+      {
+        title: "Project management",
+        image: {
+          src: management.src,
+          width: management.width,
+          height: management.height,
+          alt: "Management Image",
+          blurDataURL: management.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+      {
+        title: "Security and speed",
+        image: {
+          src: speed.src,
+          width: speed.width,
+          height: speed.height,
+          alt: "Speed Image",
+          blurDataURL: speed.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+    ],
   },
   callout: {
     heading: {
@@ -109,45 +109,45 @@ export const pageData = {
       eyebrow: "What I can do",
       title: "Here's what I can offer.",
       message: "I have experience working",
-      items: [
-        {
-          title: "Experience",
-          image: {
-            src: star.src,
-            width: star.width,
-            height: star.height,
-            alt: "Star Image",
-            blurDataURL: star.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-        {
-          title: "Work Ethic",
-          image: {
-            src: sunglasses.src,
-            width: sunglasses.width,
-            height: sunglasses.height,
-            alt: "Sunglasses Image",
-            blurDataURL: sunglasses.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-        {
-          title: "Low-Ego Development",
-          image: {
-            src: balloon.src,
-            width: balloon.width,
-            height: balloon.height,
-            alt: "Balloon Image",
-            blurDataURL: balloon.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-      ],
     },
+    items: [
+      {
+        title: "Experience",
+        image: {
+          src: star.src,
+          width: star.width,
+          height: star.height,
+          alt: "Star Image",
+          blurDataURL: star.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+      {
+        title: "Work Ethic",
+        image: {
+          src: sunglasses.src,
+          width: sunglasses.width,
+          height: sunglasses.height,
+          alt: "Sunglasses Image",
+          blurDataURL: sunglasses.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+      {
+        title: "Low-Ego Development",
+        image: {
+          src: balloon.src,
+          width: balloon.width,
+          height: balloon.height,
+          alt: "Balloon Image",
+          blurDataURL: balloon.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+    ],
   },
   history: {
     heading: {
@@ -208,44 +208,44 @@ export const pageData = {
     heading: {
       title: "In my free time...",
       isCentered: true,
-      items: [
-        {
-          title: "I'm in a band",
-          image: {
-            src: guitar.src,
-            width: guitar.width,
-            height: guitar.height,
-            alt: "Guitar Image",
-            blurDataURL: guitar.blurDataURL,
-          },
-          message: "I’m the guitarist in a band called The Chugs and I ",
-        },
-        {
-          title: "I work on my old house",
-          image: {
-            src: house.src,
-            width: house.width,
-            height: house.height,
-            alt: "House Image",
-            blurDataURL: house.blurDataURL,
-          },
-          message:
-            "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
-        },
-        {
-          title: "I take care of my cats",
-          image: {
-            src: cat.src,
-            width: cat.width,
-            height: cat.height,
-            alt: "Cat Image",
-            blurDataURL: cat.blurDataURL,
-          },
-          message:
-            "I have three cats that I love very much. They are named after my favorite video game characters: Link, Zelda, and Ganon.",
-        },
-      ],
     },
+    items: [
+      {
+        title: "I'm in a band",
+        image: {
+          src: guitar.src,
+          width: guitar.width,
+          height: guitar.height,
+          alt: "Guitar Image",
+          blurDataURL: guitar.blurDataURL,
+        },
+        message: "I’m the guitarist in a band called The Chugs and I ",
+      },
+      {
+        title: "I work on my old house",
+        image: {
+          src: house.src,
+          width: house.width,
+          height: house.height,
+          alt: "House Image",
+          blurDataURL: house.blurDataURL,
+        },
+        message:
+          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+      },
+      {
+        title: "I take care of my cats",
+        image: {
+          src: cat.src,
+          width: cat.width,
+          height: cat.height,
+          alt: "Cat Image",
+          blurDataURL: cat.blurDataURL,
+        },
+        message:
+          "I have three cats that I love very much. They are named after my favorite video game characters: Link, Zelda, and Ganon.",
+      },
+    ],
   },
   cta: {
     title: "I would love to join the Netlify team!",

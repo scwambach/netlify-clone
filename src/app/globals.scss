@@ -1,5 +1,6 @@
 :root {
   --black: #131820;
+  --boxBlack: #0d2a2a;
   --white: #ffffff;
   --blue: #4a64ee;
   --lightBlue: #32e6e2;
@@ -22,6 +23,7 @@ html {
   font-family: var(--font-instrument-sans), sans-serif;
   line-height: 1.5;
   text-wrap: pretty;
+  font-weight: 400;
 }
 
 .heading {
@@ -29,4 +31,8 @@ html {
   font-weight: 700;
   line-height: 1.1;
   text-wrap: pretty;
+}
+
+.page-block {
+  padding: 100px 0;
 }

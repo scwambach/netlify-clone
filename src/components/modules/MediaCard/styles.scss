@@ -1,0 +1,29 @@
+.media-card {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  p {
+    margin: 0;
+  }
+
+  &__content {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+  }
+
+  &__image {
+    background-color: var(--boxBlack);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    height: 227px;
+    border-radius: 12px;
+  }
+
+  &__title {
+    font-size: 25px;
+  }
+}

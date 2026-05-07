@@ -1,0 +1,25 @@
+.heading {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+
+  &__eyebrow {
+    font-family: var(--font-martian-mono);
+    text-transform: uppercase;
+    color: var(--blue);
+    font-size: 14px;
+    margin: 0;
+    font-weight: 400;
+  }
+
+  &__title {
+    font-size: 64px;
+    margin: 0;
+  }
+
+  &__message {
+    font-size: 18px;
+    margin: 0;
+    font-weight: 400;
+  }
+}

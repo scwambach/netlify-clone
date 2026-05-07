@@ -1,0 +1,17 @@
+.media-cards {
+  .container {
+    display: flex;
+    flex-direction: column;
+    gap: 80px;
+  }
+
+  &__cards {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+
+    .media-card {
+      flex: 1 1 calc(33.333% - 16px);
+    }
+  }
+}
