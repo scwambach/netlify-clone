@@ -1,0 +1,38 @@
+.footer {
+  .container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+  }
+
+  p {
+    font-size: 16px;
+    margin: 0;
+  }
+
+  a {
+    color: var(--black);
+    text-decoration: none;
+  }
+
+  &__content {
+    width: 80%;
+  }
+
+  &__connect {
+    width: 20%;
+  }
+
+  &__socials {
+    display: flex;
+    gap: 8px;
+    margin-top: 8px;
+
+    a {
+      transition: opacity 0.3s ease-in-out;
+      &:hover {
+        opacity: 0.8;
+      }
+    }
+  }
+}

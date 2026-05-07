@@ -1,0 +1,28 @@
+.hero-banner {
+  background-color: var(--black);
+  padding: 130px 0;
+  color: var(--white);
+
+  h1 {
+    font-size: 65px;
+    color: var(--lighterGray);
+    margin: 0;
+  }
+
+  img {
+    display: block;
+  }
+
+  &__inner {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    justify-content: space-between;
+    text-wrap: pretty;
+  }
+
+  &__buttons {
+    display: flex;
+    gap: 16px;
+  }
+}

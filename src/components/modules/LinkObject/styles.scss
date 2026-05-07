@@ -1,0 +1,12 @@
+.link-object {
+  display: inline-flex;
+  align-items: center;
+  transition: opacity 0.3s ease;
+  gap: 8px;
+  text-decoration: none;
+
+  &:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+}

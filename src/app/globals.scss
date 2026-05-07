@@ -1,20 +1,32 @@
 :root {
   --black: #131820;
+  --white: #ffffff;
   --blue: #4a64ee;
   --lightBlue: #32e6e2;
   --lighterBlue: #8efbf7;
   --gray: #5a6767;
-  --lightertGray: #e6ecf2;
+  --lighterGray: #e6ecf2;
   --darkGray: #293a39;
   --darkerGray: #30353a;
+  --darkestGray: #292f35;
+  --hoverGray: #2d4247;
 }
 
 .container {
-  max-width: 1280px;
+  max-width: 1000px;
   margin: 0 auto;
   padding: 0 32px;
 }
 
 html {
   font-family: var(--font-instrument-sans), sans-serif;
+  line-height: 1.5;
+  text-wrap: pretty;
+}
+
+.heading {
+  font-family: var(--font-figtree), sans-serif;
+  font-weight: 700;
+  line-height: 1.1;
+  text-wrap: pretty;
 }
