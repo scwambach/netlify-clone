@@ -12,7 +12,15 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    // Ignore everything outside src folder
+    "coverage/**",
+    "*.config.*",
+    "*.setup.*",
   ]),
+  // Only lint files in src directory
+  {
+    files: ["src/**/*.{js,jsx,ts,tsx}"],
+  },
 ]);
 
 export default eslintConfig;

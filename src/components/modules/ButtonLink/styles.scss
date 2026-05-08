@@ -39,5 +39,11 @@
         background-color: var(--hoverGray);
       }
     }
+
+    @media (max-width: 768px) {
+      padding: 12px 24px;
+      display: block;
+      text-align: center;
+    }
   }
 }

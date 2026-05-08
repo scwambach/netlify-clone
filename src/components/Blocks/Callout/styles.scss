@@ -10,6 +10,12 @@
     justify-content: space-between;
   }
 
+  img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+  }
+
   .heading {
     &__eyebrow {
       color: var(--lightBlue);
@@ -41,5 +47,31 @@
     font-size: 18px;
     border-radius: 7px;
     padding: 15px 20px;
+  }
+
+  @media (max-width: 768px) {
+    &__box {
+      flex-direction: column;
+      gap: 0;
+    }
+
+    .heading {
+      &__title {
+        font-size: 28px;
+      }
+    }
+
+    &__content {
+      width: 100%;
+    }
+
+    &__image {
+      width: 100%;
+    }
+
+    &__list-item {
+      font-size: 16px;
+      padding: 12px 16px;
+    }
   }
 }

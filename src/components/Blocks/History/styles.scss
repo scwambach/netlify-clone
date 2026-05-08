@@ -8,4 +8,15 @@
     grid-template-columns: repeat(auto-fit, minmax(45%, 1fr));
     gap: 2.5%;
   }
+
+  @media (max-width: 768px) {
+    &__heading {
+      margin-bottom: 32px;
+    }
+
+    &__cards {
+      grid-template-columns: 1fr;
+      gap: 24px;
+    }
+  }
 }

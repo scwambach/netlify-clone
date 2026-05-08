@@ -40,4 +40,17 @@
     margin: 0;
     font-weight: 400;
   }
+
+  @media (max-width: 768px) {
+    padding: 24px;
+    gap: 16px;
+
+    &__title {
+      font-size: 20px;
+    }
+
+    &__company {
+      font-size: 12px;
+    }
+  }
 }

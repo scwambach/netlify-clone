@@ -1,0 +1,6 @@
+# Run lint-staged to auto-fix linting issues
+npx lint-staged
+
+# Run all tests to ensure nothing is broken
+npm test
+
