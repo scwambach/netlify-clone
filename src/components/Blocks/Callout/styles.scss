@@ -20,6 +20,11 @@
     &__eyebrow {
       color: var(--lightBlue);
     }
+
+    &__message {
+      font-size: 16px;
+    }
+
     &__title {
       font-size: 45px;
     }
@@ -44,7 +49,6 @@
   &__list-item {
     background-color: var(--darkBlue);
     border: 2px solid var(--gray);
-    font-size: 18px;
     border-radius: 7px;
     padding: 15px 20px;
   }

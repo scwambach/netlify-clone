@@ -253,7 +253,7 @@ export const pageData = {
           blurDataURL: house.blurDataURL,
         },
         message:
-          "I bought an old house and I'm slowly fixing it up myself. It's humbling, time-consuming, and I love it.",
+          "I bought an old house and I'm slowly fixing it up with my wife! It's humbling, time-consuming, and I love it!",
       },
       {
         title: "I take care of my cats",
@@ -265,7 +265,7 @@ export const pageData = {
           blurDataURL: cat.blurDataURL,
         },
         message:
-          "I have three cats named after Zelda characters: Link, Zelda, and Ganon. They attend most of my video calls uninvited.",
+          "I have three cats. They're named Fiddle, Mandolin, and Poppy. I love them very much and they are very spoiled.",
       },
     ],
   },
@@ -301,6 +301,7 @@ export const pageData = {
         text: "Download my resume",
       },
       socials: [
+        "https://github.com/scwambach",
         "https://www.linkedin.com/in/scott-wambach-94b580b7/?skipRedirect=true",
         "https://www.instagram.com/scottcwambach/",
       ],
