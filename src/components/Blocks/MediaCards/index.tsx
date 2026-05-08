@@ -8,7 +8,7 @@ export interface MediaCardItem {
   title: string;
   image: ImageProps;
   message: string;
-  button?: LinkProps[];
+  buttons?: LinkProps[];
 }
 
 export interface MediaCardProps {

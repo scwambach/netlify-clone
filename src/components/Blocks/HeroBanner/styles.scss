@@ -8,11 +8,16 @@
     color: var(--lighterGray);
     margin: 0;
   }
-
   img {
     display: block;
     max-width: 100%;
+    margin: 0 auto;
     height: auto;
+  }
+
+  &__content,
+  &__image {
+    width: 50%;
   }
 
   &__inner {
@@ -33,6 +38,11 @@
 
     h1 {
       font-size: 36px;
+    }
+
+    &__content,
+    &__image {
+      width: 100%;
     }
 
     &__inner {

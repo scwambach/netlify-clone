@@ -14,7 +14,7 @@ import { HeadingLevel } from "@/utils/types";
 export const pageData = {
   header: {
     title: "howdy!",
-    message: "Welcome to my Netlify tribute site. I'd love to work for you!",
+    message: "Welcome to my Netlify tribute site. I’d love to work for you!",
     button: {
       href: "mailto:scott@example.com?subject=Hello&body=I%20would%20love%20to%20work%20with%20you!",
       text: "Let's chat!",
@@ -23,9 +23,9 @@ export const pageData = {
   },
   heroBanner: {
     title: "I'm Scott and I love Netlify.",
-    headingLevel: 1,
+    headingLevel: 1 as HeadingLevel,
     message:
-      "I'm a software engineer with more than 10 years of experience who exclusively uses Netlify to host my sites.",
+      "I'm a senior front-end engineer with 13 years of experience who has used Netlify exclusively to host my personal and freelance sites.",
     image: {
       src: heroImage.src,
       width: heroImage.width,
@@ -65,7 +65,7 @@ export const pageData = {
           blurDataURL: stars.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "From the UI to the deploy pipeline, Netlify's attention to detail is something I genuinely admire as both a developer and a design-minded engineer.",
       },
       {
         title: "Project management",
@@ -77,7 +77,7 @@ export const pageData = {
           blurDataURL: management.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "Branch deploys, instant rollbacks, and preview URLs. Netlify's project management tooling makes client handoffs and team collaboration painless.",
       },
       {
         title: "Security and speed",
@@ -89,7 +89,7 @@ export const pageData = {
           blurDataURL: speed.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "I've never had a client ask me why the site is slow. That's Netlify.",
       },
     ],
   },
@@ -98,7 +98,8 @@ export const pageData = {
       eyebrow: "Netlify values",
       headingLevel: 2 as HeadingLevel,
       title: "Netlify values that resonate with me.",
-      message: "I'm a fan of Netlify's company values",
+      message:
+        "I've been remote since 2021 and thrive in async, distributed teams. Inclusivity, collaboration, and genuine passion for craft are values I bring to work every day.",
     },
     items: [
       "Inclusivity and diversity is important",
@@ -132,7 +133,7 @@ export const pageData = {
           blurDataURL: star.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "13 years of front-end engineering across marketing teams, agencies, SaaS companies, and freelance. From local businesses to Fortune 500 clients.",
       },
       {
         title: "Work Ethic",
@@ -144,7 +145,7 @@ export const pageData = {
           blurDataURL: sunglasses.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "I've worked in-house at InVision's global marketing team, at a digital agency, and now in government tech at Coforma. I show up fully in every context.",
       },
       {
         title: "Low-Ego Development",
@@ -156,7 +157,7 @@ export const pageData = {
           blurDataURL: balloon.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "I'd rather ship something great together than be right alone. I collaborate easily with designers, marketers, and stakeholders. My wife is a graphic designer, so that skill runs deep.",
       },
     ],
   },
@@ -232,7 +233,15 @@ export const pageData = {
           alt: "Guitar Image",
           blurDataURL: guitar.blurDataURL,
         },
-        message: "I'm the guitarist in a band called The Chugs and I ",
+        message:
+          "I'm the guitarist and producer in The Chugs! We're a Hamm's fueled punk band from Evansville. Our album Eternal Brewtopia hit #1 on Apple Music's punk chart in 2025.",
+        buttons: [
+          {
+            href: "https://thechugsband.com",
+            text: "Check out our music",
+            className: "primary",
+          },
+        ],
       },
       {
         title: "I work on my old house",
@@ -244,7 +253,7 @@ export const pageData = {
           blurDataURL: house.blurDataURL,
         },
         message:
-          "Nunc dictum vehicula turpis sed ornare. Nullam sed commodo libero. Duis suscipit.",
+          "I bought an old house and I'm slowly fixing it up myself. It's humbling, time-consuming, and I love it.",
       },
       {
         title: "I take care of my cats",
@@ -256,7 +265,7 @@ export const pageData = {
           blurDataURL: cat.blurDataURL,
         },
         message:
-          "I have three cats that I love very much. They are named after my favorite video game characters: Link, Zelda, and Ganon.",
+          "I have three cats named after Zelda characters: Link, Zelda, and Ganon. They attend most of my video calls uninvited.",
       },
     ],
   },

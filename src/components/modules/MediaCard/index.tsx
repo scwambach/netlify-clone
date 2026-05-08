@@ -3,7 +3,12 @@ import "./styles.scss";
 import Image from "next/image";
 import { ButtonLink } from "../ButtonLink";
 
-export const MediaCard = ({ title, image, message, button }: MediaCardItem) => {
+export const MediaCard = ({
+  title,
+  image,
+  message,
+  buttons,
+}: MediaCardItem) => {
   return (
     <div className="media-card">
       <div className="media-card__image">
@@ -20,13 +25,13 @@ export const MediaCard = ({ title, image, message, button }: MediaCardItem) => {
       <div className="media-card__content">
         <p className="media-card__title heading">{title}</p>
         <p className="media-card__message">{message}</p>
-        {button && (
+        {buttons && (
           <div className="media-card__buttons">
-            {button.map((btn, index) => (
+            {buttons.map((btn, index) => (
               <ButtonLink
                 key={index}
                 href={btn.href}
-                className="media-card__button"
+                className={`media-card__button${btn.className ? ` ${btn.className}` : ""}`}
               >
                 {btn.text}
               </ButtonLink>

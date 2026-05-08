@@ -54,7 +54,7 @@ describe("MediaCard", () => {
   it("should render buttons when provided", () => {
     const propsWithButtons = {
       ...mockProps,
-      button: [
+      buttons: [
         { href: "/learn-more", text: "Learn More" },
         { href: "/get-started", text: "Get Started" },
       ],
@@ -80,7 +80,7 @@ describe("MediaCard", () => {
   it("should render single button", () => {
     const propsWithButton = {
       ...mockProps,
-      button: [{ href: "/details", text: "View Details" }],
+      buttons: [{ href: "/details", text: "View Details" }],
     };
 
     render(<MediaCard {...propsWithButton} />);
@@ -93,7 +93,7 @@ describe("MediaCard", () => {
   it("should apply correct button href", () => {
     const propsWithButtons = {
       ...mockProps,
-      button: [{ href: "/specific-url", text: "Click Me" }],
+      buttons: [{ href: "/specific-url", text: "Click Me" }],
     };
 
     render(<MediaCard {...propsWithButtons} />);
@@ -122,7 +122,7 @@ describe("MediaCard", () => {
   it("should render buttons in correct container", () => {
     const propsWithButtons = {
       ...mockProps,
-      button: [{ href: "/test", text: "Test Button" }],
+      buttons: [{ href: "/test", text: "Test Button" }],
     };
 
     const { container } = render(<MediaCard {...propsWithButtons} />);

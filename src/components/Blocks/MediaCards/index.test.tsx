@@ -32,7 +32,7 @@ const mockProps: MediaCardProps = {
         blurDataURL: "data:image/jpeg;base64,test",
       },
       message: "Creating native mobile experiences",
-      button: [{ href: "/mobile", text: "Learn More" }],
+      buttons: [{ href: "/mobile", text: "Learn More" }],
     },
     {
       title: "Cloud Services",
