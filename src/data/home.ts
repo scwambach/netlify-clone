@@ -35,7 +35,7 @@ export const pageData = {
     },
     buttons: [
       {
-        href: "/resume.pdf",
+        href: "/ScottWambachResume.pdf",
         text: "Download my resume",
         className: "primary",
       },
@@ -297,7 +297,7 @@ export const pageData = {
     },
     links: {
       resume: {
-        href: "/scottwambachResume.pdf",
+        href: "/ScottWambachResume.pdf",
         text: "Download my resume",
       },
       socials: [
